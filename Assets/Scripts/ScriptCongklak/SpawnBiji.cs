@@ -21,9 +21,19 @@ public class SpawnBiji : MonoBehaviour
 
     void Start()
     {
-        if (!isSpawning)
+        SpawnStart();
+        // if (!isSpawning)
+        // {
+        //     StartCoroutine(BijiSpawn());
+        // }
+    }
+
+    void SpawnStart()
+    {
+        for (int i = 0; i < maxSpawn; i++)
         {
-            StartCoroutine(BijiSpawn());
+            Vector3 offset = Random.insideUnitSphere * 0.36f;
+            Instantiate(bijiPrefab, transform.position + offset, Quaternion.identity);
         }
     }
 
