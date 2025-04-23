@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Dika UI folder/Scenes/UI (BukanInGame).unity
+    guid: c1cc66eb8b44a2342b56b53320639b93
+  - enabled: 1
+    path: Assets/Dika UI folder/Scenes/SceneCongklak.unity
+    guid: bd0b9140a0eebe44f948a3fcc32c0ff0
+  - enabled: 1
+    path: Assets/Dika UI folder/Scenes/UI InGame.unity
+    guid: 52c246338cf8c0e4f89fc763cdefd797
+  - enabled: 1
+    path: Assets/Dika UI folder/Scenes/SceneLompatTali.unity
+    guid: 797b08dcb348d6548a144748cae19fea
   m_configObjects: {}
