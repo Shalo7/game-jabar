@@ -32,7 +32,7 @@ public class SpawnBiji : MonoBehaviour
     {
         for (int i = 0; i < maxSpawn; i++)
         {
-            Vector3 offset = Random.insideUnitSphere * 0.36f;
+            Vector3 offset = Random.insideUnitSphere * 0.3f;
             Instantiate(bijiPrefab, transform.position + offset, Quaternion.identity);
         }
     }
